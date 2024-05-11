@@ -1,0 +1,94 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Reduced padding for smaller screens */
+    max-width: 90%; /* Adjusted max-width for smaller screens */
+    width: 90%;
+    margin: auto; /* Center the card horizontally */
+    text-align: left;
+}
+
+h1 {
+    font-size: 28px; /* Reduced font size for smaller screens */
+    color: #333333;
+    margin-bottom: 15px; /* Reduced margin for smaller screens */
+}
+
+h2 {
+    font-size: 22px; /* Reduced font size for smaller screens */
+    color: #555555;
+    margin-bottom: 20px; /* Reduced margin for smaller screens */
+}
+
+input[type="password"],
+input[type="text"] {
+    width: calc(100% - 32px);
+    padding: 14px; /* Reduced padding for smaller screens */
+    margin-bottom: 15px; /* Reduced margin for smaller screens */
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 14px; /* Reduced font size for smaller screens */
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 14px 28px; /* Reduced padding for smaller screens */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px; /* Reduced font size for smaller screens */
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.question-image,
+.image{
+    width: 240px; /* Reduced width for smaller screens */
+    height: 230px; /* Reduced height for smaller screens */
+    border-radius: 10%;
+    margin: 10px; /* Reduced margin for smaller screens */
+}
+.images{
+    width: 320px; /* Reduced width for smaller screens */
+    height: 230px; /* Reduced height for smaller screens */
+    border-radius: 10%;
+    margin: 10px; /* Reduced margin for smaller screens */
+}
+.container {
+    text-align: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 90%;
+    margin: auto;
+    text-align: left;
+}
